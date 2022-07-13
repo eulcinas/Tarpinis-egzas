@@ -1,0 +1,43 @@
+footer {
+    width: 100%;
+    height: 165px;
+    background: $teal;
+    display: flex;
+    justify-content: space-between;
+    padding-left: 80px;
+    padding-right: 80px;
+    align-items: center;
+  
+    .footer-box {
+      width: 50%;
+  
+      nav {
+        display: flex;
+        text-decoration: none;
+        color: $blue;
+    
+        li {
+          list-style: none;
+          padding-right: 10px;
+        }
+      }
+    
+      p {
+        font-size: 0.7em;
+        padding-top: 10px;
+        color: rgba(0, 0, 0, 0.6);
+      }
+    }
+  
+  
+    .social {
+      width: 50%;
+      display: flex;
+      justify-content: flex-end;
+      gap: 20px;
+  
+      img {
+        width: 3%;
+      }
+    }
+  }

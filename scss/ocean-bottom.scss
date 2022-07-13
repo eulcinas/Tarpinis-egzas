@@ -1,0 +1,45 @@
+.ocean-bottom {
+    width: 100%;
+    height: 280px;
+    text-align: center;
+    background: url(/app/images/bg-masthead.jpg);
+    background-size: cover;
+    background-position: center;
+  
+    h1 {
+      text-align: center;
+      color: $white;
+      padding-top: 80px;
+      font-size: 1.8em;
+      margin: 0px 90px;
+    }
+  
+    .ocean-container-bt {
+      width: 60%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      margin: auto;
+      padding-top: 20px;
+  
+      .email-box {
+        width: 60%;
+        height: 40px;
+        text-align: justify;
+        background: $white;
+        color: rgba(0, 0, 0, 0.7);
+        border-radius: 3px;
+        padding: 10px;
+        margin-right: 10px;
+      }
+    
+      a {
+        width: 100px;
+        height: 40px;
+        background: $blue;
+        color: $white;
+        border-radius: 3px;
+        padding-top: 10px;
+      }
+    }
+  }
